@@ -440,14 +440,6 @@ section h3.section-subheading {
 }
 
 .timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
 }
 
 .timeline>li {
@@ -748,11 +740,11 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 60px;
     outline: 0;
     color: #fff;
     background-color: #222;

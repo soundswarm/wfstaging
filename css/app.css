@@ -3,21 +3,21 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-html {
- height:100%;
- min-height:100%;
- }
 
-
-.full {
-	height:100%;
-     min-height:100%;
-  background: url("bridge.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  background-size: cover;
-
+.google-maps {
+    position: relative;
+    padding-bottom: 70%; // This is the aspect ratio
+    margin: auto;
+    height: 0;
+    overflow: hidden;
 }
- 
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
 
 
