@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "urwcopernicusaltd","Helvetica Neue",Helvetica,Arial,cursive;
     color: white;
 }
 
@@ -196,7 +196,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: white;
 }
 
 .navbar-default .navbar-collapse {
@@ -255,6 +255,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 2em;
+        color: transparent;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -288,8 +289,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 70px;
-    padding-bottom: 200px;
+    padding-top: 160px;
+    padding-bottom: 110px;
     color: white;
 }
 
