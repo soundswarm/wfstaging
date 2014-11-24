@@ -4,6 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /* intro-heading */
+@font-face {
+  font-family: "urwcopernicusaltd";
+  src: url(../fonts/WARFLAGFONT/urwcopernicusaltd.ttf);
+}
+
+/*intro-lead-in */
+@font-face {
+  font-family: "interstate-black";
+  src: url(../fonts/alesAndLagers/interstate-black.ttf);
+}
+
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -14,7 +27,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #928d7d;
 }
 
 p {
@@ -35,7 +48,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #928d7d;
 }
 
 a:hover,
@@ -69,12 +82,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #928d7d;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #928d7d;
 }
 
 .btn-primary:hover,
@@ -108,25 +121,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #928d7d;
+    background-color: #928d7d;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #928d7d;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #928d7d;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #928d7d;
 }
 
 .btn-xl:hover,
@@ -160,12 +173,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #928d7d;
+    background-color: #928d7d;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #928d7d;
     background-color: #fff;
 }
 
@@ -191,8 +204,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #928d7d;
+    background-color: #928d7d;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #928d7d;
 }
 
 .navbar-default .nav li a {
@@ -215,13 +228,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #928d7d;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #928d7d;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -275,55 +288,51 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-@font-face {
-  font-family: "Depressionist";
-  src: url(../fonts/TransitDisplayDEMO-KCFonts.ttf);
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+    color: white;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 3px;
     text-transform: uppercase;
-    font-family: "Depressionist";
+    font-family: "urwcopernicusaltd";
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "interstate-black","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 @media(min-width:768px) {
 
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+        padding-top: 100px;
+        padding-bottom: 530px;
+        color: black;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 3px;
         text-transform: uppercase;
-        font-family: "Depressionist";
+        font-family: "urwcopernicusaltd";
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
     }
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "interstate-black","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 32px;
+        font-style: ;
+        line-height: 40px;
+    }
+
+    
 }
 
 section {
@@ -491,7 +500,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #928d7d;
 }
 
 .timeline>li .timeline-image h4 {
@@ -678,7 +687,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #928d7d;
     box-shadow: none;
 }
 
@@ -756,7 +765,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #928d7d;
 }
 
 .btn:focus,
@@ -839,12 +848,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #928d7d;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #928d7d;
 }
 
 img::selection {
@@ -856,5 +865,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #928d7d;
 }

@@ -6,7 +6,7 @@
 
 .google-maps {
     position: relative;
-    padding-bottom: 70%; // This is the aspect ratio
+    padding-bottom: 100%; // This is the aspect ratio
     margin: auto;
     height: 0;
     overflow: hidden;
@@ -14,12 +14,18 @@
 .google-maps iframe {
     position: absolute;
     top: 0;
-    left: 10%;
-    width: 75%;
-    height: 75% 
+    width: 50%;
+    height: 50% ;
 }
 
-
+.snakeIcon {
+  height: 40px;
+}
+.beerwrapper {
+  width: 50%;
+  max-height: 50%
+  margin: auto;
+}
 
 
 .icon {
