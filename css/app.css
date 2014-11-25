@@ -12,10 +12,9 @@
     overflow: hidden;
 }
 .google-maps iframe {
-    position: absolute;
-    top: 0;
-    width: 50%;
-    height: 50% ;
+    position: relative;
+    margin-left: 10%;
+    width: 75%;
 }
 
 .beerwrapper {
@@ -23,24 +22,70 @@
   margin: auto;
 }
 
-.icon {
-	width: 2%;
-	min-width: 25px;
-	margin-right: 7px;
-	float: right;
+.carousel-wrapper {
+  max-width: 600px;
+  margin: auto;
 }
-@media screen and (min-device-width: 667px) {
-  .icons {
-  	position: absolute;
-    top: 1%;
-	right: 3%;
-  }
+.carousel-inner{
+  max-height: 250px !important;
 }
-@media screen and (max-device-width: 667px) {
-  .icons {
-  	position: absolute;
-    top: 1%;
-	right: 2%;
-  }
+.img-carousel {
+  margin: auto;
+  max-height: 250px;
 }
 
+.story {
+  width: 100%;
+  color: white;
+  background-color:rgba(0,0,0,0.6);
+  margin: auto;
+  padding-top: 10px;
+}
+.section-heading {
+  font-style: normal;
+}
+
+
+
+.carousel-control {
+  color: #545454;
+}
+/*make carousel left and right margins white*/
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image:         linear-gradient(to right, rgba(255, 255, 255, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .0001)), to(rgba(0, 0, 0, .5)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(255, 255, 255, .5) 100%);
+
+}
+
+@media screen and (min-device-width: 767px) {
+ 
+  .carousel-inner{
+    max-height: 500px !important;
+  }
+  .img-carousel {
+    margin: auto;
+    max-height: 450px;
+  }
+  
+}
+
+section#about {
+   background-image: url(../img/cityGlass.jpg);
+   background-attachment: scroll;
+   background-position: center center;
+   background-repeat: none;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}

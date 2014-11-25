@@ -312,23 +312,23 @@ header .intro-text .intro-lead-in {
 @media(min-width:768px) {
 
     header .intro-text {
-        padding-top: 100px;
-        padding-bottom: 530px;
-        color: black;
+        padding-top: 90px;
+        padding-bottom: 515px;
+        color: #464646;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 3px;
+        margin-bottom: 34px;
         text-transform: uppercase;
         font-family: "urwcopernicusaltd";
-        font-size: 75px;
+        font-size: 120px;
         font-weight: 700;
         line-height: 75px;
     }
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "interstate-black","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 32px;
+        font-size: 37px;
         font-style: ;
         line-height: 40px;
     }
@@ -351,7 +351,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
