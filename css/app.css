@@ -81,7 +81,7 @@
 
 section#about {
    background-image: url(../img/cityGlass.jpg);
-   background-attachment: scroll;
+   background-attachment: fixed;
    background-position: center center;
    background-repeat: none;
    -webkit-background-size: cover;
