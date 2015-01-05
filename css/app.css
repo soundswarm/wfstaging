@@ -98,3 +98,17 @@ section#about {
    background-size: cover;
    -o-background-size: cover;
 }
+section#freedom {
+   background-image: url(../img/FightTheGoodFight.jpg);
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: none;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+
+.BORInstituteLink {
+ width: 110px;
+}
