@@ -6,8 +6,8 @@
 
  /* intro-heading */
 @font-face {
-  font-family: "urwcopernicusaltd";
-  src: url(../fonts/WARFLAGFONT/urwcopernicusaltd.ttf);
+  font-family: "CharlemagneStd-Bold";
+  src: url(../fonts/WARFLAGFONT/CharlemagneStd-Bold.otf);
 }
 
 /*intro-lead-in */
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "urwcopernicusaltd","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "CharlemagneStd-Bold","Helvetica Neue",Helvetica,Arial,cursive;
     color: white;
 }
 
@@ -240,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #928d7d;
 }
 
 @media(min-width:768px) {
@@ -272,6 +272,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: white;
     }
 }
 
@@ -297,7 +298,7 @@ header .intro-text {
 header .intro-text .intro-heading {
     margin-bottom: 3px;
     text-transform: uppercase;
-    font-family: "urwcopernicusaltd";
+    font-family: "CharlemagneStd-Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -312,15 +313,15 @@ header .intro-text .intro-lead-in {
 @media(min-width:768px) {
 
     header .intro-text {
-        padding-top: 90px;
-        padding-bottom: 515px;
+        padding-top: 112px;
+        padding-bottom: 505px;
         color: #464646;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 34px;
+        margin-bottom: 11px;
         text-transform: uppercase;
-        font-family: "urwcopernicusaltd";
+        font-family: "CharlemagneStd-Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 120px;
         font-weight: 700;
         line-height: 75px;
@@ -357,6 +358,7 @@ section h3.section-subheading {
 @media(min-width:768px) {
     section {
         padding: 150px 0;
+        
     }
 }
 
@@ -732,7 +734,7 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
+    line-height: 5px;
 }
 
 footer ul.quicklinks {

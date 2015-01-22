@@ -3,19 +3,44 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
-.google-maps {
-    position: relative;
-    padding-bottom: 100%; // This is the aspect ratio
-    margin: auto;
-    height: 0;
-    overflow: hidden;
+/*.map-wrapper {
+  max-height: 480px;
+}*/
+.beer {
+  margin: auto;
+  float:none;
+}
+.beerlink {
+  display: inline-block;
+  padding: 10px;
+}
+.email {
+  padding-top: 10px;
 }
 .google-maps iframe {
-    position: relative;
-    margin-left: 10%;
-    width: 75%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  max-height: 480px;
 }
+.google-maps {
+  position: relative;
+  height: 0;
+  width: 75%;
+  margin-left: 12.5%;
+  padding-bottom: 75%;
+  overflow: hidden;
+  max-height: 480px;
+}
+
+.map-wrapper {
+
+  max-height: 480px;
+
+}
+
 
 .beerwrapper {
   max-height: 500px;
@@ -37,6 +62,7 @@
   padding: 30px;
   color: white;
   width: 200px;
+  font-size: 17px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -46,10 +72,12 @@
 .story {
   width: 100%;
   color: white;
-  background-color:rgba(0,0,0,0.6);
+  background-color:rgba(0,0,0,0.7);
   margin: auto;
   padding-top: 10px;
 }
+
+
 .section-heading {
   font-style: normal;
 }
@@ -85,30 +113,23 @@
     margin: auto;
     max-height: 450px;
   }
-  
-}
-
-section#about {
-   background-image: url(../img/cityGlass.jpg);
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: none;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
-}
-section#freedom {
-   background-image: url(../img/FightTheGoodFight.jpg);
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: none;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
 }
 
 .BORInstituteLink {
- width: 110px;
+ width: 115px;
 }
+.story h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+section#freedom {
+   background-image: url(../img/billOfRightsGood.jpg);
+   background-attachment: scroll;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+  }
